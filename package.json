@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/YuliaTsveleva/node-training/issues"
   },
-  "homepage": "https://github.com/YuliaTsveleva/node-training#readme"
+  "homepage": "https://github.com/YuliaTsveleva/node-training#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
